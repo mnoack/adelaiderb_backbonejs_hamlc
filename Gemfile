@@ -32,6 +32,13 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'haml_coffee_assets'
+gem 'backbone-on-rails'
+
+gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4'
+
+gem 'haml'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
