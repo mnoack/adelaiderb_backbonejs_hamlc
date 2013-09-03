@@ -39,6 +39,8 @@ gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4'
 
 gem 'haml'
 
+gem 'twitter-bootstrap-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
