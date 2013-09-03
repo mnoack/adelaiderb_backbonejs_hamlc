@@ -1,0 +1,13 @@
+%h2 New Candidate
+
+
+%form#new_form.form-horizontal(action='#')
+  %label
+    Name
+    %input.span9(type='text' name='candidate[name]')
+
+  %label
+    Ballot Position
+    %input.span3(type='text' name='candidate[ballot_position]')
+
+  %input.btn.btn-primary(type='submit' value='Add')
